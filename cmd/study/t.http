@@ -2,5 +2,5 @@
 GET {{host}}/livez
 
 ###
-GET {{host}}/api/kube-system/pod
+GET {{host}}/api/v1/namespaces/default/pods
 Authorization: Bearer 111111
